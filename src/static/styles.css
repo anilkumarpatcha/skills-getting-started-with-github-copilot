@@ -85,6 +85,32 @@ section h3 {
   color: #555;
 }
 
+.participants-list {
+  margin-top: 10px;
+}
+
+.participant {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 2px 0;
+  color: #555;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #ff0000;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 0 5px;
+}
+
+.delete-btn:hover {
+  color: #cc0000;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
